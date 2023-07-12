@@ -1,0 +1,92 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  
+    height: 80rem;
+/* height: 100%; */
+    
+    width:100%;
+    background-image: url(/photo/Rectangle\ 29.jpg) ;
+    object-fit: contain;
+}
+.header__title, .btn{
+    margin-left: 7rem;
+}
+.header__title{
+    width:43rem;
+    /* width: 100%; */
+height:12rem;
+/* height: 100%; */
+margin-bottom: 3.1rem;
+}
+.header {
+     color: var(--color-dark);
+      background-color: var( --color-yellow);
+}
+
+
+.more-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5.3rem;
+}
+
+
+/* sliders */
+
+.sliders{
+    position: relative;
+ 
+    background: url(/photo/wash-car.jpg) no-repeat   ;
+    width: 100%;
+    height: 80rem;
+}
+
+
+ .arrow-icon{
+    color:var(--color-yellow);
+font-size: 96px;
+} 
+.sliders .radios{
+    color: var(--color-yellow);
+}
+
+
+.material-left{
+    position: absolute;
+left: 3.06%;
+right: 94.72%;
+top: 56.95%;
+bottom: 42.61%;
+    Width:3.2rem;
+Height:1.5rem;
+}
+
+.material-right{
+    position: absolute;
+left: 95.01%;
+right: 0.76%;
+top: 57.88%;
+}
+
+.radios{
+    position: absolute;
+width: 20rem;
+height: 2.9rem;
+left: 63.5rem;
+bottom: 3.2rem;
+}
+
+
+.two-title{
+    position: absolute;
+width: 43rem;
+height: 12rem;
+right: 8.1rem;
+top:23.7rem;
+
+}
+

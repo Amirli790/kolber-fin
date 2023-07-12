@@ -1,0 +1,97 @@
+.options__box_sale-text{
+    color: var(--color-yellow);
+    background-color: var(--color-dark);
+    width: 10rem;
+    height: 2.7rem;
+   
+
+    font-style: normal;
+font-weight: 700;
+font-size: 1.4rem;
+line-height: 2rem;
+/* or 143%category-sale  j   */
+border-radius: 8px;
+justify-content: center;
+display: flex;
+align-items: center;
+text-align: center;
+position: absolute;
+top: 1.2rem;
+right: 1.1rem ;
+}
+
+.category-sale{
+    padding: 4.9rem 0;
+    margin-left: 9.5rem;
+    flex-wrap: wrap;
+    width: 50vw;
+    display: flex;
+    gap: 25.3rem;
+    justify-content: space-between;
+    
+}
+.category-sale-title{
+    display: flex;
+    font-style: normal;
+font-weight: 700;
+font-size: 1.4rem;
+line-height: 2rem;
+/* identical to box height, or 143% */
+max-width: 30.5rem;
+width: 100%;
+height: 3.8rem;
+border: 1.5px solid var(--color-white);
+border-radius: 0.4rem;
+justify-content: space-between;
+padding: 0.9rem 1rem;
+color: var(--color-white);
+}
+.category-sale-mehsullar{
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+    /* or 33px */
+    display: flex;
+    align-items: center;
+   
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: var(--color-white);
+}
+ /* next page */
+ .next-pages{
+   display:flex ;
+   margin-left: 50%;
+   justify-content: space-around;
+margin-bottom: 9.2rem;
+ }
+.next-pages__numbers{
+    padding: 2.5rem 1.8rem;
+    max-width: 30.5rem;
+    width: 100%;
+    height: 5rem;
+    border: 1.5px solid var(--color-white);
+border-radius: 3rem;
+display: flex;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+.numbers{
+display: flex;
+gap: 1rem;
+align-items: center;
+text-align: center;
+}
+.numbers a{ 
+   
+    font-style: normal;
+    font-weight: 400;
+font-size: 1.6rem;
+line-height: 2.4rem;
+/* or 24px */
+color: var(--color-white);
+letter-spacing: 0.02em;
+}
+

@@ -1,0 +1,21 @@
+.about-bg-photo{
+    /* max-width: 100vw;
+    width: 100%;
+    height: 79.7rem; */
+    background-size: 100vw, 79.7rem,cover;
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* object-fit: cover; */
+ 
+}
+.about-us-text{
+    margin: 0 17.7rem 16.7rem  17.7rem;
+    font-weight: 400;
+font-size: 2.2rem;
+line-height: 3.3rem;
+/* or 33px */
+
+letter-spacing: 0.02em;
+
+color: var(--color-white);
+}

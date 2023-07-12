@@ -1,0 +1,73 @@
+.loc-boxs{
+   margin: 0 6.2rem 16.1rem 6.5rem;
+
+   display: grid;
+
+    grid-template-columns: repeat(auto-fill, minmax(27.5rem,41.7rem));  
+    gap: 5.9rem;
+}
+
+.location-box{
+padding: 0 3.7rem 5rem 4rem; 
+width: 41.7rem;
+width: 100%;
+height: 47.3rem;
+height: auto;
+mix-blend-mode: normal;
+border: 1.5px solid #FFEC00;
+border-radius: 15px;
+}
+
+.location-box__loc-title{
+    font-style: normal;
+font-weight: 700;
+font-size: 2.2rem;
+line-height: 3.3rem;
+/* or 33px */
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+max-width: 14.9rem;
+width: 100%;
+height: 8.7rem;
+
+
+color: var(--color-yellow);
+}
+
+.location-box__adress{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.6rem;
+    margin-bottom: 4.2rem;
+}
+
+.loc-adress{
+  max-width: 25.6rem;
+  width: 100%;
+  height: 6rem;
+  
+}
+
+.loc-icon-box{
+    width: 4.5rem;
+    height: 4.5rem;
+border: 1.5px solid var(--color-yellow);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 0.8rem;
+}
+
+.location-box__iframe-box{
+    max-width: 33.7rem;
+    width: 100%;
+    height: 24.2rem;
+
+}
+.location-box__iframe-box iframe{
+    border-radius: 1.2rem;
+}

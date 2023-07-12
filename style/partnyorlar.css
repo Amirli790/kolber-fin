@@ -1,0 +1,84 @@
+.partner-boxs{
+    margin: 0 6.5rem 9.8rem 6.5rem;
+ 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(27.5rem,41.7rem));  
+    gap: 5.78rem;
+}
+
+.partner{
+    max-width: 41.7rem;
+    width: 100%;
+  /*  max-height: 53.6rem; */
+height: auto;
+mix-blend-mode: normal;
+border: 1.5px solid var(--color-yellow);
+border-radius: 1.5rem;
+padding: 4.3rem 4rem 3.8rem 4rem;
+}
+
+.partner-logo{
+    max-width: 33.7rem;
+    width: 100%;
+    height: 24.2rem;
+    background: var(--color-white);
+mix-blend-mode: normal;
+box-shadow: 0px 9px 10px rgba(187, 187, 187, 0.28);
+border-radius: 1.5rem;
+padding: 6.2rem 3.6rem 6.1rem 7.7rem;
+}
+
+
+.partner-logo_img{
+    max-width: 22.4rem;
+    
+    height: 11.9rem;
+   
+}
+
+.partner-title{
+    max-width: 33.7rem;
+    width: 100%;
+    height: 8.7rem;
+    
+    font-style: normal;
+font-weight: 700;
+font-size: 2.2rem;
+line-height: 3.3rem;
+/* or 33px */
+
+display: flex;
+align-items: center;
+/* justify-content: center; */
+letter-spacing: 0.02em;
+
+color: var(--color-yellow);
+}
+
+.partner-exp{
+    max-width: 33.7rem;
+    width: 100%;
+    height: 13.4rem;
+    font-style: normal;
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 2.4rem;
+/* or 24px */
+letter-spacing: 0.02em;
+color: var(--color-white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
